@@ -1,6 +1,6 @@
 RAG Fundamentals with LangChain
 
-This README is designed to help you understand the fundamentals of Retrieval-Augmented Generation (RAG) using LangChain. RAG is a powerful technique that enhances language model performance by integrating external data through retrieval-based methods. In this guide, we will cover different types of RAG models and their applications.
+This README is my notes and homework on RAG. I have also put together some videos and papers that I found useful. RAG is a powerful technique that enhances language model performance by integrating external data through retrieval-based methods. In this guide, we will cover different types of RAG models and their applications. Hopefully as an LLM enthusiast you find it useful too. 
 
 ---
 
@@ -67,6 +67,3 @@ LangChain is a framework that facilitates the integration of retrieval and gener
 
 For further reading and a deeper dive into RAG with LangChain, check out the official LangChain documentation and the LangChain GitHub repository. LangChain provides a variety of tools to enhance your understanding and implementation of retrieval-augmented generation techniques.
 
----
-
-Happy Learning!
