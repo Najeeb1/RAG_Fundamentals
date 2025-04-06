@@ -2,7 +2,6 @@ RAG Fundamentals with LangChain
 
 This README is my notes and homework on RAG. I have also put together some videos and papers that I found useful. RAG is a powerful technique that enhances language model performance by integrating external data through retrieval-based methods. In this guide, we will cover different types of RAG models and their applications. Hopefully as an LLM enthusiast you find it useful too. 
 
-![RAG Components](https://vitalflux.com/wp-content/uploads/2024/01/RAG-LLM-with-Retriever.png)
 
 ---
 
@@ -20,7 +19,7 @@ This README is my notes and homework on RAG. I have also put together some video
 5. [Additional Resources](#additional-resources)
 
 ---
-
+![RAG Components](https://vitalflux.com/wp-content/uploads/2024/01/RAG-LLM-with-Retriever.png)
 ## Introduction to RAG
 
 Retrieval-Augmented Generation (RAG) combines the power of large language models (LLMs) with the ability to retrieve relevant external information from a corpus to improve generation quality. This technique is particularly useful in scenarios where large amounts of background knowledge are needed to answer questions or generate content.
