@@ -47,3 +47,24 @@ def reciprocal_rank_fusion(results: list[list], k=60):
 
 retrieval_chain_rag_fusion = generate_queries | retriever.map() | reciprocal_rank_fusion
 docs = retrieval_chain_rag_fusion.invoke({"question": question})
+from langchain_core.runnables import RunnablePassthrough
+
+# RAG
+template = """Answer the following question based on this context:
+
+{context}
+
+Question: {question}
+"""
+
+prompt = ChatPromptTemplate.from_template(template)
+
+final_rag_chain = (
+    {"context": retrieval_chain_rag_fusion, 
+     "question": itemgetter("question")} 
+    | prompt
+    | llm
+    | StrOutputParser()
+)
+
+final_rag_chain.invoke({"question":question})
